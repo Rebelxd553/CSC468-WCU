@@ -2,7 +2,7 @@ import geni.portal as portal
 import geni.rspec.pg as pg
 import geni.rspec.igext as IG
    
-pc = portal.Context()
+pc = portal.Context() 
 
 pc.defineParameter("nodeType", "Node type: XenVM or RawPC",
                    portal.ParameterType.STRING, "XenVM" )
